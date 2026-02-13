@@ -15,7 +15,7 @@ function App() {
     <>
       <Cursor />
     
-      <Router>
+      <Router basename="/lotus-pro">
           <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
