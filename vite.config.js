@@ -2,7 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // This tells Vite exactly where the files will live on GitHub
-  base: "/lotus-pro/dist/", 
+  base: "/lotus-pro/", // Clean URL base
   plugins: [react()],
+  build: {
+    outDir: 'docs', // Changes output from 'dist' to 'docs'
+  }
 })
