@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://adithyan7592.github.io/lotus-pro",
-
   "scripts": {
-     "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@sanity/client": "^7.14.1",
